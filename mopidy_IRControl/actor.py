@@ -6,7 +6,7 @@ import tempfile
 from time import sleep
 
 from mopidy.core import PlaybackState
-from mopidy.utils import process
+from mopidy.internal import process
 from mopidy.core import CoreListener
 
 logger = logging.getLogger('mopidy_IRControl')
